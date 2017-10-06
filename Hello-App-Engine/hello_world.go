@@ -11,7 +11,7 @@ func init() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "handler() from go-playing/helloWorld/ # from github")
+	fmt.Fprint(w, "handler() from go-playing/helloWorld/ # from github with love")
 }
 
 func testHandler(w http.ResponseWriter, r *http.Request) {
